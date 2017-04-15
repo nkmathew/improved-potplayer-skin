@@ -52,9 +52,10 @@
 						<Label Align='Left' CmdID='' ColorX='875' ColorY='528' Width='10' AutoSize='1' FontName='Tahoma' FontSize='11' Text='/' VertAlignment='1' OffsetTop='1' />
 						<Layout Align='Left' Width='5' />
 						<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' ColorX='875' ColorY='528' Width='50' AutoSize='1' FontName='Tahoma' FontSize='11' VertAlignment='1' OffsetTop='1' />
+						<Label Align='Left' CmdID='' TextColor='0xDEADFE' Width='10' AutoSize='1' FontName='Tahoma' FontSize='11' Text=' (-' VertAlignment='1' OffsetTop='1' />
+						<Label Align='Left' CmdID='CMD_LEFTTIME_MESSAGE' TextColor='0xDEADFE' Width='50' AutoSize='1' FontName='Tahoma' FontSize='12' VertAlignment='1' OffsetTop='1' />
+						<Label Align='Left' CmdID='' TextColor='0xDEADFE' Width='10' AutoSize='1' FontName='Tahoma' FontSize='11' Text=')' VertAlignment='1' OffsetTop='1' />
 						<Layout Align='Left' Width='10' />
-						<Label Align='Left' CmdID='CMD_VIDEO_OUT_HW_SW_MESSAGE' Cursor='HAND' AutoEnable='1' ColorX='864' ColorY='528' Width='55' FontName='Tahoma' FontSize='11' VisParentMinWidth='314' AutoSize='1' AutoVisible='1' VertAlignment='1' OffsetTop='1' />
-						
 						<Layout Align='Right' Width='10' />
 						<Button Align='Right' Tooltip='$ID_CONTROL_BOX_WINDOW' CmdID='ID_CONTROL_BOX_WINDOW' Width='17' ImageLeft='81' ImageTop='421' ImageWidth='17' ImageHeight='18' OffsetTop='2' />
 						<Layout Align='Right' Width='10' />
@@ -84,4 +85,3 @@
 				</Static>	
 			
 			</Static>
-
